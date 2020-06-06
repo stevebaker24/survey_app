@@ -1,0 +1,37 @@
+<!-- index.html-->
+
+{% extends "base.html" %}
+{% block title %}Survey Summary Generator{% endblock %}
+{% block body %}
+<div>
+  <h1>Score Breakdown Generator</h1>
+</div>
+<div>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.trust.label }}<br>
+            {{ form.trust}}<br>
+            {% for error in form.trust.errors %}
+            <span class="text-danger">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.locality.label }}<br>
+            {{ form.locality}}<br>
+            {% for error in form.locality.errors %}
+            <span class="text-danger">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.score_type.label }}<br>
+            {{ form.score_type}}<br>
+            {% for error in form.locality.errors %}
+            <span class="text-danger">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+
+        <p>{{ form.submit() }}</p>
+    </form>
+</div>
+{% endblock %}

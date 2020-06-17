@@ -5,8 +5,8 @@ from survey_app import app
 from survey_app.forms import RagForm, FreqForm, FreeTextForm
 import sys
 
-#sys.path.append('C:\\Users\\steve.baker\\PycharmProjects\\survey_platform\\survey_platform')
-#import survey_platform as sp
+sys.path.append('C:\\Users\\steve.baker\\PycharmProjects\\survey_platform\\survey_platform')
+import survey_platform as sp
 
 
 @app.route('/', methods=['GET'])

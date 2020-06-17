@@ -1,0 +1,8 @@
+qid,theme,q_text,q_type,scored,pos_text,s_00,s_01,s_02,s_03,s_04,s_05,s_06,s_07,s_08,s_09,s_10,r_00,r_01,r_02,r_03,r_04,r_05,r_06,r_07,r_08,r_09,r_10
+Q1,theme2,Question text 1,s,1,Q1 pos text,,1,1,2,3,3,,1,,,,,Definitely,Maybe,Unsure,No,Absolutely Not,,Fuck Yeah,,,
+Q2,theme2,Question text 2,s,1,Q1 pos text,,1,1,2,3,3,4,,,,,,Definitely,Maybe,Unsure,No,Absolutely Not,N/A,,,,
+Q4,theme1,Question text 3,s,1,Q1 pos text,,1,1,2,3,3,4,,,,,,Definitely,Maybe,Unsure,No,Absolutely Not,N/A,,,,
+Q3,theme1,Question text 4,s,1,Q1 pos text,,1,1,2,3,3,4,,,,,,Definitely,Maybe,Unsure,No,Absolutely Not,N/A,,,,
+Q5,theme3,Question text 5,s,0,,,,,,,,,,,,,,,,,,,,,,,
+Q6,theme3,Question text 6,t,0,,,,,,,,,,,,,,,,,,,,,,,
+Q7,theme3,Question text 7,m,0,,,,,,,,,,,,,,Bannana,Apple,Sausage,Burger,,,,,,

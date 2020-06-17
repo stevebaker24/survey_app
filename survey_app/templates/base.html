@@ -10,6 +10,23 @@
     <title>{% block title %}{% endblock %}</title>
   </head>
   <body>
+
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="/">Home</a>
+
+
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="/freq">Frequency Tables</a>
+      <a class="nav-item nav-link" href="/freetext">Free Text</a>
+      <a class="nav-item nav-link" href="/rag">RAG</a>
+
+    </div>
+
+</nav>
+
+<br>
+
     <div class="container">
 
       {% block body %}
